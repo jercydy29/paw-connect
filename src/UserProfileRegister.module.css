@@ -1,0 +1,67 @@
+.container {
+    height: 100%;
+    padding: 0 5%;
+}
+
+.pageName {
+    color: #FE6f61;
+    font-size: 3rem;
+}
+
+.pageHeader {
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.pageGreeting {
+    text-align: right;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    /* padding: 50px; */
+}
+
+.profile {
+    position: relative;
+    background-color: #F4A301;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px 0px;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    position: absolute;
+    right: 0px;
+    bottom: -168px;
+    width: 400px;
+}
+
+.dogProfile {
+    background-color: #A2B9A7;
+}
+
+.spaceBT {
+    font-size: 120px;
+    font-weight: bolder;
+}
+
+.profileContent {
+    font-size: 1.3rem;
+}
+
+.dog_profileContent {
+    text-align: right;
+}

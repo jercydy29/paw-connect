@@ -1,0 +1,105 @@
+.pageHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pageName {
+    color: #FE6f61;
+    font-size: 3rem;
+}
+
+.registerContainer {
+    /* padding: 5%; */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.registerForm {
+    background-color: #a2b9a7;
+    padding: 30px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px 0px;
+    min-width: 350px;
+
+}
+
+.registerForm h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.registerForm label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.registerForm input {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.registerForm input:focus {
+    outline: none;
+    border-color: #F4A301;
+}
+
+.registerForm button {
+    display: block;
+    background-color: #F4A301;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 3px solid black;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.displayContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F4A301;
+    padding: 30px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px 0px;
+}
+
+.firstBox {
+    background-color: #F8D579;
+    border: 3px solid black;
+    font-weight: 900;
+    padding: 10px;
+    width: fit-content;
+}
+
+.secondBox img {
+    width: 300px;
+    border: 3px solid black;
+    max-width: 100%;
+    /* height: auto; */
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .registerForm {
+        width: 90%;
+        max-width: 350px;
+        min-width: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .displayContainer {
+        display: none;
+    }
+}
