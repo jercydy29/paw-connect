@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import LoginPage from './LoginPage';
 import SignupPage from './SignupPage';
-import UserProfileRegister from './UserProfileRegister';
+import UserProfileRegister from './userProfileRegister/UserProfileRegister';
 // import logo from './logo.svg';
 import './App.css';
 

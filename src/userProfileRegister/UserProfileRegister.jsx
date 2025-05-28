@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from './UserProfileRegister.module.css';
-import userProfile from './assets/userProfile.png'
-import dogProfile from './assets/dogProfile.png'
+import userProfile from '../assets/userProfile.png'
+import dogProfile from '../assets/dogProfile.png'
 
 
 function UserProfileRegister() {
